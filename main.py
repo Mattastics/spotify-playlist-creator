@@ -4,8 +4,8 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth, SpotifyClientCredentials
 
-CLIENT_ID = "462a42a1aea246eb84141a432584f1d5"
-CLIENT_SECRET = "f3225bad521f4e319837d7947dfdc429"
+CLIENT_ID = *********************************"
+CLIENT_SECRET = "********************************"
 
 date = input("When do you want to travel back to? Enter in this format YYYY-MM-DD\n")
 response = requests.get(url=f"https://www.billboard.com/charts/hot-100/{date}")
